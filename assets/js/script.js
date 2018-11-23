@@ -7,10 +7,9 @@ canvas.height = window.innerHeight;
 let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
-let bgColor = document.querySelector("#bgColor").value;
 ctx.lineCap = "round";
 ctx.lineJoin = "round";
-ctx.fillStyle = `${bgColor}`;
+ctx.fillStyle = `#fff`;
 ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 function draw(e) {

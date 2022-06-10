@@ -1,0 +1,47 @@
+body{
+    overflow-x: hidden;
+}
+.topbar{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    position: fixed;
+    padding: 10px 100px;
+}
+.topbar-left{
+    display: flex;
+    gap: 20px;
+}
+.topbar-left .tools{
+    flex: 1 0 20px;
+    align-items: center;
+    display: flex;
+}
+.topbar-left .tools svg{
+    /* color: #fff;
+    fill: #fff; */
+}
+.topbar-left .brush{
+    flex: 1 0 200px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.topbar-left .color{
+    display: flex;
+    flex: 1 0 200px;
+    gap: 20px;
+    align-items: center;
+}
+.topbar-right{
+    display: flex;
+    gap: 10px;
+}
+.topbar-right .download{
+    flex: 1 0 20px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
